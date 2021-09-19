@@ -5,6 +5,21 @@ html {
     overflow-y:auto;
 }
 
-.hero {
-    background-image: url(/assets/images/CFI+Steph-logo-2.png);
+.hero-image {
+    background-image: url(../images/flightinstrumentscockpit_aviationsixpack.jpg);
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover; 
 }
+
+.hero-body {
+    height: 300px;
+}
+
+.content {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
