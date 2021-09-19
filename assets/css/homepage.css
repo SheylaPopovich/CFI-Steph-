@@ -1,0 +1,10 @@
+html {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    margin: 0%;
+    overflow-y:auto;
+}
+
+.hero {
+    background-image: url(/assets/images/CFI+Steph-logo-2.png);
+}
