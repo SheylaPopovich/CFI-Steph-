@@ -1,3 +1,6 @@
+/* MAKE LANDING PAGE RESPONSIVE */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 html {
   height: 100%;
   margin: 0%;
@@ -11,63 +14,70 @@ html {
   /* TESTING */
   justify-content: center;
     align-items: center;
-    height: 100vh;
-    
+    height: 50vw;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    
   
+}
+
+#title {
+    text-align: center;
 }
 
 h1 {
   font-stretch: extra-expanded;
   font-family: "Rubik", sans-serif;
-  font-size: 6.5rem;
+  font-size: 9vw;
   color: white;
-  padding-top: 4rem;
-  margin-left: 19%;
-  margin-right: 10%;
-
+  padding-top: 5rem;
+  text-align: center;
   letter-spacing: 0.4em;
 }
 
 #subHead {
   font-stretch: extra-expanded;
   font-family: "Rubik", sans-serif;
-  font-size: 2rem;
+  font-size: 2vw;
   color: white;
   padding-top: 1rem;
   text-align: center;
 }
 
 
-
+/* 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 500px;
 }
- 
+  */
 
 /* TESTING BUTTON */
+#button {
+    text-align: center;
+    position: static;
+}
 
-a{
-    position: relative;
+
+a {    
+    /* position: relative; */
     align-content: center;
     display: inline-block;
     padding: 25px 30px;
-    margin-left: 41%;
-    margin-right: 20%;
-    margin-top: 19%;
+    margin-top: 17vw;
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
-    margin-right: 50px;
+  
    
 }
+
+
 a:hover{
     background: #ffffff;
     color: #050801;
@@ -155,3 +165,4 @@ a span:nth-child(4){
     50%,100%{
         bottom: 100%;
     }
+    
