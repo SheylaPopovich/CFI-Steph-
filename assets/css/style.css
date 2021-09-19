@@ -1,6 +1,12 @@
 /* MAKE LANDING PAGE RESPONSIVE */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+selector { 
+property:value; 
+}
+}}
 html {
   height: 100%;
   margin: 0%;
