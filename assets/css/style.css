@@ -1,12 +1,6 @@
 /* MAKE LANDING PAGE RESPONSIVE */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-@media not all and (min-resolution:.001dpcm)
-{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
-selector { 
-property:value; 
-}
-}}
 html {
   height: 100%;
   margin: 0%;
@@ -86,6 +80,10 @@ a {
 
 
 a:hover{
+
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
     background: #ffffff;
     color: #050801;
     box-shadow: 0 0 5px #ffffff,
